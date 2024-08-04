@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubanto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: ubanto, sans-serif;
+}
+
+.qiuz-container{
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 black;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+}
+
+#quiz-question{
+    font-size: 1.6rem;
+    padding: 20px;
+    text-align: center;
+
+}
+
+ul{
+    list-style: none;
+    margin-left: 10px;
+}
+
+li{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    padding: 5px;
+
+}
+
+
+
+#submit{
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    display: block;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    justify-content: center;
+    /* margin: 0 auto; */
+    padding: 7.5px;
+    margin-top: 10px;
+    border-radius:0 0 10px 10px;
+}
+
+#submit:hover{
+    cursor: pointer;
+    background-color:#F39C12;
+}
